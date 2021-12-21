@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>26278fc1-0c93-4561-b58d-a7bed106cbab</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>API_Final.py</StartupFile>
+    <StartupFile>Understanding_flask.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="API_Final.py" />
+    <Compile Include="Understanding_flask.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="CondaEnv|CondaEnv|env" />

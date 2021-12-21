@@ -26,4 +26,14 @@ print("\n It works ... finally")
 ploads = {'things':2, 'total': 25}
 r = requests.get('https://httpbin.org/get', params=ploads)
 print(r.text)
-print(r.url)
+
+#Using POST Request
+
+pload = {'username': 'Olivia', 'password': '123'}
+r = requests.post('https://httpbin.org/post', data = pload)
+
+r_dictionary = r.json()
+
+print('')
+
+print(r_dictionary['form'])
