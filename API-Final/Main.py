@@ -1,3 +1,4 @@
+"""
 import requests
 import re
 
@@ -13,5 +14,5 @@ def print_headers(link):
     return
 
 
-print_whole_website('http://www.sosmath.com/trig/Trig5/trig5/trig5.html')
- 
+print_whole_website('http://www.sosmath.com/trig/Trig5/trig5/trig5.html') 
+"""
