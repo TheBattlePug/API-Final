@@ -1,6 +1,7 @@
+"""
 import requests
 
-"""
+
 #here is the part where you can request an article and its elements
 r = requests.get('https://xkcd.com/1906/')
 
@@ -19,7 +20,7 @@ with open(r'C:\Inputs\DansCat.jpg','wb') as f:
     f.write(recieve.content)
 
 print("\n It works ... finally")
-"""
+
 
 #passing argument in the request
 
@@ -37,3 +38,5 @@ r_dictionary = r.json()
 print('')
 
 print(r_dictionary['form'])
+
+"""
