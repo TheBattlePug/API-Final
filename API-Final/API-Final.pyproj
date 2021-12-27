@@ -12,7 +12,7 @@
     <Name>API-Final</Name>
     <RootNamespace>API-Final</RootNamespace>
     <IsWindowsApplication>False</IsWindowsApplication>
-    <InterpreterId>CondaEnv|CondaEnv|miniconda3</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|env</InterpreterId>
     <SuppressEnvironmentCreationPrompt>True</SuppressEnvironmentCreationPrompt>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
