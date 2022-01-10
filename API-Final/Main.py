@@ -1,3 +1,5 @@
+"""
+
 import requests
 import re
 
@@ -54,3 +56,5 @@ def find_link_from_code(list_of_images, website_link):
 
 # get_image_links('http://www.sosmath.com/trig/Trig5/trig5/trig5.html')
 # print("end")
+
+"""
